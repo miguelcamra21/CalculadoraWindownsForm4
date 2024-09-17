@@ -11,15 +11,15 @@ namespace CalculadoraWindownsForm
         {
             {
                 progressBar1.Value = progressBar1.Value + 1;
-
             }
 
             if (progressBar1.Value == 100)
             {
+                TMRCarregamento.Enabled = false;
                 this.Hide();
                 Frm_Calculadora frm_Calculadora = new Frm_Calculadora();
                 frm_Calculadora.ShowDialog();
-                TMRCarregamento.Enabled = false;
+                
             }
         }
     }
