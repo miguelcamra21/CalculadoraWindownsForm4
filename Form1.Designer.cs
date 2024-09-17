@@ -46,7 +46,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(257, 28);
+            label1.Location = new Point(255, 28);
             label1.Name = "label1";
             label1.Size = new Size(285, 44);
             label1.TabIndex = 3;
