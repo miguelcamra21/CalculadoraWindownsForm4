@@ -46,7 +46,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(255, 28);
+            label1.Location = new Point(239, 28);
             label1.Name = "label1";
             label1.Size = new Size(285, 44);
             label1.TabIndex = 3;
@@ -61,8 +61,10 @@
             ClientSize = new Size(735, 545);
             Controls.Add(label1);
             Controls.Add(progressBar1);
+            FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
