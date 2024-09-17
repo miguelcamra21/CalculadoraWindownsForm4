@@ -73,6 +73,16 @@ namespace CalculadoraWindownsForm.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Corinthians_logo_escudo_1 {
+            get {
+                object obj = ResourceManager.GetObject("Corinthians-logo-escudo-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap corinthians_soccer_wallpaper_thumb {
             get {
                 object obj = ResourceManager.GetObject("corinthians-soccer-wallpaper-thumb", resourceCulture);
