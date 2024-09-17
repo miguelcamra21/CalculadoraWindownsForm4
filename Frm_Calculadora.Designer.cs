@@ -49,9 +49,9 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.DeepPink;
+            button1.BackColor = SystemColors.ControlDark;
             button1.Font = new Font("Segoe UI", 14F);
-            button1.Location = new Point(11, 114);
+            button1.Location = new Point(11, 103);
             button1.Name = "button1";
             button1.Size = new Size(95, 71);
             button1.TabIndex = 1;
@@ -60,9 +60,9 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.DeepPink;
+            button2.BackColor = SystemColors.ControlDark;
             button2.Font = new Font("Segoe UI", 14F);
-            button2.Location = new Point(112, 114);
+            button2.Location = new Point(112, 103);
             button2.Name = "button2";
             button2.Size = new Size(95, 71);
             button2.TabIndex = 2;
@@ -71,9 +71,9 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.DeepPink;
+            button3.BackColor = SystemColors.ControlDark;
             button3.Font = new Font("Segoe UI", 14F);
-            button3.Location = new Point(213, 114);
+            button3.Location = new Point(213, 103);
             button3.Name = "button3";
             button3.Size = new Size(95, 71);
             button3.TabIndex = 3;
@@ -82,9 +82,9 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.DeepPink;
+            button4.BackColor = SystemColors.ControlDark;
             button4.Font = new Font("Segoe UI", 14F);
-            button4.Location = new Point(314, 114);
+            button4.Location = new Point(314, 103);
             button4.Name = "button4";
             button4.Size = new Size(95, 71);
             button4.TabIndex = 4;
@@ -93,9 +93,9 @@
             // 
             // button5
             // 
-            button5.BackColor = Color.DeepPink;
+            button5.BackColor = SystemColors.ControlDark;
             button5.Font = new Font("Segoe UI", 12F);
-            button5.Location = new Point(314, 191);
+            button5.Location = new Point(314, 180);
             button5.Name = "button5";
             button5.Size = new Size(95, 71);
             button5.TabIndex = 8;
@@ -104,9 +104,9 @@
             // 
             // button6
             // 
-            button6.BackColor = Color.DeepPink;
+            button6.BackColor = SystemColors.ControlDark;
             button6.Font = new Font("Segoe UI", 12F);
-            button6.Location = new Point(213, 191);
+            button6.Location = new Point(213, 180);
             button6.Name = "button6";
             button6.Size = new Size(95, 71);
             button6.TabIndex = 7;
@@ -115,9 +115,9 @@
             // 
             // button7
             // 
-            button7.BackColor = Color.DeepPink;
+            button7.BackColor = SystemColors.ControlDark;
             button7.Font = new Font("Segoe UI", 12F);
-            button7.Location = new Point(112, 191);
+            button7.Location = new Point(112, 180);
             button7.Name = "button7";
             button7.Size = new Size(95, 71);
             button7.TabIndex = 6;
@@ -126,9 +126,9 @@
             // 
             // button8
             // 
-            button8.BackColor = Color.DeepPink;
+            button8.BackColor = SystemColors.ControlDark;
             button8.Font = new Font("Segoe UI", 12F);
-            button8.Location = new Point(11, 191);
+            button8.Location = new Point(11, 180);
             button8.Name = "button8";
             button8.Size = new Size(95, 71);
             button8.TabIndex = 5;
@@ -137,9 +137,9 @@
             // 
             // button10
             // 
-            button10.BackColor = Color.DeepPink;
+            button10.BackColor = SystemColors.ControlDark;
             button10.Font = new Font("Segoe UI", 12F);
-            button10.Location = new Point(213, 268);
+            button10.Location = new Point(213, 257);
             button10.Name = "button10";
             button10.Size = new Size(95, 71);
             button10.TabIndex = 11;
@@ -148,9 +148,9 @@
             // 
             // button11
             // 
-            button11.BackColor = Color.DeepPink;
+            button11.BackColor = SystemColors.ControlDark;
             button11.Font = new Font("Segoe UI", 12F);
-            button11.Location = new Point(112, 268);
+            button11.Location = new Point(112, 257);
             button11.Name = "button11";
             button11.Size = new Size(95, 71);
             button11.TabIndex = 10;
@@ -159,9 +159,9 @@
             // 
             // button12
             // 
-            button12.BackColor = Color.DeepPink;
+            button12.BackColor = SystemColors.ControlDark;
             button12.Font = new Font("Segoe UI", 12F);
-            button12.Location = new Point(11, 268);
+            button12.Location = new Point(11, 257);
             button12.Name = "button12";
             button12.Size = new Size(95, 71);
             button12.TabIndex = 9;
@@ -170,9 +170,9 @@
             // 
             // button9
             // 
-            button9.BackColor = Color.DeepPink;
+            button9.BackColor = SystemColors.ControlDark;
             button9.Font = new Font("Segoe UI", 12F);
-            button9.Location = new Point(213, 345);
+            button9.Location = new Point(213, 334);
             button9.Name = "button9";
             button9.Size = new Size(95, 71);
             button9.TabIndex = 14;
@@ -181,9 +181,9 @@
             // 
             // button13
             // 
-            button13.BackColor = Color.DeepPink;
+            button13.BackColor = SystemColors.ControlDark;
             button13.Font = new Font("Segoe UI", 12F);
-            button13.Location = new Point(112, 345);
+            button13.Location = new Point(112, 334);
             button13.Name = "button13";
             button13.Size = new Size(95, 71);
             button13.TabIndex = 13;
@@ -192,9 +192,9 @@
             // 
             // button14
             // 
-            button14.BackColor = Color.DeepPink;
+            button14.BackColor = SystemColors.ControlDark;
             button14.Font = new Font("Segoe UI", 12F);
-            button14.Location = new Point(11, 345);
+            button14.Location = new Point(11, 334);
             button14.Name = "button14";
             button14.Size = new Size(95, 71);
             button14.TabIndex = 12;
@@ -203,9 +203,9 @@
             // 
             // button15
             // 
-            button15.BackColor = Color.DeepPink;
+            button15.BackColor = SystemColors.ControlDark;
             button15.Font = new Font("Segoe UI", 12F);
-            button15.Location = new Point(314, 268);
+            button15.Location = new Point(314, 257);
             button15.Name = "button15";
             button15.Size = new Size(95, 148);
             button15.TabIndex = 15;
@@ -214,9 +214,9 @@
             // 
             // button16
             // 
-            button16.BackColor = Color.DeepPink;
+            button16.BackColor = SystemColors.ControlDark;
             button16.Font = new Font("Segoe UI", 12F);
-            button16.Location = new Point(11, 422);
+            button16.Location = new Point(11, 411);
             button16.Name = "button16";
             button16.Size = new Size(297, 58);
             button16.TabIndex = 16;
@@ -235,7 +235,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
+            BackColor = Color.Cyan;
             ClientSize = new Size(421, 489);
             Controls.Add(textBox1);
             Controls.Add(button16);
