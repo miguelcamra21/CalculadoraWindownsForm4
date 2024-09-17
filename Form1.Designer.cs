@@ -65,7 +65,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 0, 64);
             BackgroundImage = Properties.Resources.corinthians_torcida_soccer_wallpaper_preview;
-            ClientSize = new Size(735, 545);
+            ClientSize = new Size(737, 534);
             Controls.Add(label1);
             Controls.Add(progressBar1);
             FormBorderStyle = FormBorderStyle.None;
