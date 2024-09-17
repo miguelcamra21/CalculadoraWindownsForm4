@@ -35,9 +35,9 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(18, 417);
+            progressBar1.Location = new Point(12, 12);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(772, 13);
+            progressBar1.Size = new Size(705, 13);
             progressBar1.TabIndex = 2;
             // 
             // label1
@@ -46,7 +46,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(272, 370);
+            label1.Location = new Point(257, 28);
             label1.Name = "label1";
             label1.Size = new Size(285, 44);
             label1.TabIndex = 3;
@@ -57,8 +57,8 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 0, 64);
-            BackgroundImage = Properties.Resources.corinthians_soccer_wallpaper_thumb;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.corinthians_torcida_soccer_wallpaper_preview;
+            ClientSize = new Size(735, 545);
             Controls.Add(label1);
             Controls.Add(progressBar1);
             Icon = (Icon)resources.GetObject("$this.Icon");

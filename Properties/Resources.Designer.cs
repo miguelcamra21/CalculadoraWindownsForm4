@@ -83,6 +83,16 @@ namespace CalculadoraWindownsForm.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap corinthians_torcida_soccer_wallpaper_preview {
+            get {
+                object obj = ResourceManager.GetObject("corinthians-torcida-soccer-wallpaper-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
