@@ -28,16 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             progressBar1 = new ProgressBar();
             label1 = new Label();
+            TMRCarregamento = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // progressBar1
             // 
             progressBar1.Location = new Point(12, 12);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(705, 13);
+            progressBar1.Size = new Size(711, 15);
             progressBar1.TabIndex = 2;
             // 
             // label1
@@ -46,11 +48,16 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(239, 28);
+            label1.Location = new Point(242, 30);
             label1.Name = "label1";
             label1.Size = new Size(285, 44);
             label1.TabIndex = 3;
             label1.Text = "Carregando...";
+            // 
+            // TMRCarregamento
+            // 
+            TMRCarregamento.Enabled = true;
+            TMRCarregamento.Tick += TMRCarregamento_Tick;
             // 
             // Form1
             // 
@@ -73,5 +80,6 @@
         #endregion
         private ProgressBar progressBar1;
         private Label label1;
+        private System.Windows.Forms.Timer TMRCarregamento;
     }
 }
