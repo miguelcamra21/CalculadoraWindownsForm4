@@ -9,17 +9,19 @@ namespace CalculadoraWindownsForm
 
         private void TMRCarregamento_Tick(object sender, EventArgs e)
         {
-            {
-                progressBar1.Value = progressBar1.Value + 1;
-            }
 
-            if (progressBar1.Value == 100)
+            if (progressBar1.Value == 10)
             {
                 TMRCarregamento.Enabled = false;
                 this.Hide();
                 Frm_Calculadora frm_Calculadora = new Frm_Calculadora();
-                frm_Calculadora.ShowDialog();
+                frm_Calculadora.Show();
                 
+            }
+
+            else
+            {
+                progressBar1.Value = progressBar1.Value + 1;
             }
         }
     }
