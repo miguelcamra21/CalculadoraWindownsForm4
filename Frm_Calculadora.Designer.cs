@@ -49,6 +49,7 @@
             menuStrip1 = new MenuStrip();
             conversorToolStripMenuItem = new ToolStripMenuItem();
             celsiusParaToolStripMenuItem = new ToolStripMenuItem();
+            centímetrosParaPolegadaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -292,7 +293,7 @@
             // 
             // conversorToolStripMenuItem
             // 
-            conversorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { celsiusParaToolStripMenuItem });
+            conversorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { celsiusParaToolStripMenuItem, centímetrosParaPolegadaToolStripMenuItem });
             conversorToolStripMenuItem.Name = "conversorToolStripMenuItem";
             conversorToolStripMenuItem.Size = new Size(103, 24);
             conversorToolStripMenuItem.Text = "Conversores";
@@ -300,9 +301,16 @@
             // celsiusParaToolStripMenuItem
             // 
             celsiusParaToolStripMenuItem.Name = "celsiusParaToolStripMenuItem";
-            celsiusParaToolStripMenuItem.Size = new Size(243, 26);
+            celsiusParaToolStripMenuItem.Size = new Size(272, 26);
             celsiusParaToolStripMenuItem.Text = "Celsius para Fahrenheit";
             celsiusParaToolStripMenuItem.Click += celsiusParaToolStripMenuItem_Click;
+            // 
+            // centímetrosParaPolegadaToolStripMenuItem
+            // 
+            centímetrosParaPolegadaToolStripMenuItem.Name = "centímetrosParaPolegadaToolStripMenuItem";
+            centímetrosParaPolegadaToolStripMenuItem.Size = new Size(272, 26);
+            centímetrosParaPolegadaToolStripMenuItem.Text = "Centímetros para Polegada";
+            centímetrosParaPolegadaToolStripMenuItem.Click += centímetrosParaPolegadaToolStripMenuItem_Click;
             // 
             // Frm_Calculadora
             // 
@@ -363,5 +371,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem conversorToolStripMenuItem;
         private ToolStripMenuItem celsiusParaToolStripMenuItem;
+        private ToolStripMenuItem centímetrosParaPolegadaToolStripMenuItem;
     }
 }

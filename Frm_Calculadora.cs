@@ -145,8 +145,15 @@ namespace CalculadoraWindownsForm
 
         private void celsiusParaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_conversor_celsius frm_Celsius= new Frm_conversor_celsius();
+            Frm_conversor_celsius frm_Celsius = new Frm_conversor_celsius();
             frm_Celsius.Show();
+            Close();
+        }
+
+        private void centímetrosParaPolegadaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Cm_Polegada frm_Cm_Polegada = new Frm_Cm_Polegada();
+            frm_Cm_Polegada.Show();
             Close();
         }
     }
