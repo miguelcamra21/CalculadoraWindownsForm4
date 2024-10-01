@@ -41,7 +41,6 @@ namespace CalculadoraWindownsForm
             tempcelsius = Convert.ToSingle(TB_TempC.Text);
             float resultado = (float)(tempcelsius * 1.8 + 32);
             TB_Fahrenheit.Text = Convert.ToString(resultado);
-
         }
     }
 }
