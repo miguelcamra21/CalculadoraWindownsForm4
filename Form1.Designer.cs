@@ -37,12 +37,12 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(11, 7);
-            progressBar1.Margin = new Padding(2);
+            progressBar1.Location = new Point(13, 9);
+            progressBar1.Margin = new Padding(2, 3, 2, 3);
             progressBar1.MarqueeAnimationSpeed = 0;
             progressBar1.Maximum = 10;
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(697, 10);
+            progressBar1.Size = new Size(797, 13);
             progressBar1.TabIndex = 2;
             // 
             // label1
@@ -51,10 +51,10 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(285, 19);
+            label1.Location = new Point(326, 25);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(188, 30);
+            label1.Size = new Size(240, 37);
             label1.TabIndex = 3;
             label1.Text = "Carregando...";
             // 
@@ -66,16 +66,16 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 0, 64);
             BackgroundImage = Properties.Resources.corinthians_torcida_soccer_wallpaper_preview;
-            ClientSize = new Size(732, 543);
+            ClientSize = new Size(839, 537);
             Controls.Add(label1);
             Controls.Add(progressBar1);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(2);
+            Margin = new Padding(2, 3, 2, 3);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
