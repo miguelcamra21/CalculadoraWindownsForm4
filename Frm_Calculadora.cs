@@ -115,28 +115,39 @@ namespace CalculadoraWindownsForm
         private void BtnIgual_Click(object sender, EventArgs e)
         {
             if (this.operacao == "+")
-            {   float resultado = valor1 + Convert.ToSingle(Visor.Text);
+            {
+                float resultado = valor1 + Convert.ToSingle(Visor.Text);
                 Visor.Text = Convert.ToString(resultado);
             }
-           
+
 
             if (this.operacao == "-")
-            { float resultado = valor1 - Convert.ToSingle(Visor.Text);
+            {
+                float resultado = valor1 - Convert.ToSingle(Visor.Text);
                 Visor.Text = Convert.ToString(resultado);
             }
-            
+
 
             if (this.operacao == "*")
-            { float resultado = valor1 * Convert.ToSingle(Visor.Text);
+            {
+                float resultado = valor1 * Convert.ToSingle(Visor.Text);
                 Visor.Text = Convert.ToString(resultado);
             }
-           
+
 
             if (this.operacao == "/")
-            {  float resultado = valor1 / Convert.ToSingle(Visor.Text);
+            {
+                float resultado = valor1 / Convert.ToSingle(Visor.Text);
                 Visor.Text = Convert.ToString(resultado);
             }
-            
+
+        }
+
+        private void celsiusParaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_conversor_celsius frm_Celsius= new Frm_conversor_celsius();
+            frm_Celsius.Show();
+            Close();
         }
     }
 }

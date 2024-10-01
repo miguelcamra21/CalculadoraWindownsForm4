@@ -16,7 +16,7 @@ namespace CalculadoraWindownsForm
                 this.Hide();
                 Frm_Calculadora frm_Calculadora = new Frm_Calculadora();
                 frm_Calculadora.Show();
-                
+
             }
 
             else
